@@ -562,6 +562,7 @@
     font-weight: bold;
     color: #51aa1b !important;
     border: 1px solid #51aa1b;
+    text-align: center;
 }
 .product-info .product-name h5{
     color: #444;
@@ -602,6 +603,7 @@
 }
 .product-info .shop .btn{
     margin-right: 4%;
+    text-align: center;
 }
 .product-info .shop .btn:hover{
     background-color: #247BA0;
