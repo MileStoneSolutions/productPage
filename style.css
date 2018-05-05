@@ -555,7 +555,6 @@
 .product-info .margin{
     height: 5%;
     margin-bottom: 15px;
-    line-height: 0;
 }
 .product-info .badge-primary{
     background-color: #f2fef2;
@@ -603,7 +602,6 @@
 }
 .product-info .shop .btn{
     margin-right: 4%;
-    line-height: 0;
 }
 .product-info .shop .btn:hover{
     background-color: #247BA0;
