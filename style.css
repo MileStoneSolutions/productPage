@@ -490,7 +490,7 @@
 
 
 
- .main-content{
+.main-content{
     background-color: #f9f9f9;
 }
 .product-detail-image{
@@ -498,6 +498,9 @@
     margin-top: 1.5%;
     font-family: 'Tajawal', sans-serif;
 }
+/* .product-detail-image .carouselExampleIndicators{
+    height: 70%;
+} */
 .product-detail-image .carousel-inner{
     height: 400px;
 }
@@ -533,7 +536,7 @@
     margin: 0px;
 }
 .product-detail-desc .accordion .card{
-     border-top: 0px; 
+    /* border-top: 0px; */
     border-bottom: 0px;
     border-left: 0px;
     border-right: 0px;
@@ -547,9 +550,11 @@
 .product-info{
     margin-top: 1.5%;
     font-family: 'Tajawal', sans-serif;
+    height: 520px;
 }
 .product-info .margin{
     height: 5%;
+    margin-bottom: 5px;
 }
 .product-info .badge-primary{
     background-color: #f2fef2;
@@ -563,11 +568,18 @@
     font-size: 2em;
     font-weight: bold;
 }
+
+.view{
+    display: inline-block;
+    text-align: center;
+    padding-right: 15px;
+    color: red;
+}
 .product-info .company-name{
     color: #b6b6b6;
 }
 .product-info .mrp-price{
-    margin-top: 6%;
+    margin-top: 8%;
     color: #b6b6b6;
 }
 .product-info .mrp-price h5{
@@ -579,13 +591,14 @@
     font-weight: bold;
 }
 .product-info .quantity{
-    margin-top: 2%;
+    margin-top: 8%;
 }
 .product-info .quantity .btn{
     margin-right: 2%;
 }
 .product-info .shop{
     margin-top: 8%;
+    height: 50px;
 }
 .product-info .shop .btn{
     margin-right: 4%;
@@ -606,12 +619,40 @@
 }
 .product-info .shop .btn-success{
     color: #F3FFBD;
+    /* border-color: #e96125; */
     border-radius: 20px;
+    /* padding: 3px 6px; */
     height: 40px;
     width: 120px;
+    /* background-color: #e96125; */
     font-size: 16px;
     font-weight: bold;
 }
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width : 768px) {
+    
+    .product-detail-desc .product-detail-heading{
+        display: none;
+    }
+    
+    .product-detail-image .carousel-inner{
+        height: 300px;
+    }
+    
+    .product-info .product-name h5{
+        font-size: 22px;
+    }
+    
+    .product-info{
+        height: 400px;
+    }
+}
+
 
 
 
